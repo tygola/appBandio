@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/cel"
+    tools:context=".splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="114dp"
+            android:layout_height="47dp"
+            android:src="@drawable/ic_seta" />
+
+        <TextView
+            android:layout_width="374dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="190dp"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:textSize="10pt" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
